@@ -185,8 +185,8 @@ public class WeatherActivity extends AppCompatActivity {
             TextView txtMin = (TextView) view.findViewById(R.id.forecast_item_txt_min);
             txtDate.setText(foreCast.date);
             txtInfo.setText(foreCast.more.info);
-            txtMax.setText(foreCast.temperature.max);
-            txtMin.setText(foreCast.temperature.min);
+            txtMax.setText(foreCast.temperature.max + "℃");
+            txtMin.setText(foreCast.temperature.min + "℃");
             forecastLayout.addView(view);
         }
 
