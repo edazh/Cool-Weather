@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+
+    <!--更新时间-->
+    <TextView
+        android:id="@+id/forecast_item_txt_update_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:textColor="#fff" />
+
+    <!--天气描述-->
+    <TextView
+        android:id="@+id/forecast_item_txt_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#fff" />
+
+    <!--最高气温-->
+    <TextView
+        android:id="@+id/forecast_item_txt_max"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textColor="#fff" />
+
+    <!--最低气温-->
+    <TextView
+        android:id="@+id/forecast_item_txt_min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textColor="#fff" />
+</LinearLayout>
